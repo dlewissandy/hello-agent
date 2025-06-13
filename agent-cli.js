@@ -4,7 +4,6 @@ import { greet_tool, get_username_tool, get_favorite_color_tool} from './tools.j
 
 // Load environment variables
 dotenv.config();
-console.log("API Key loaded:", process.env.OPENAI_API_KEY ? "Yes (key hidden for security)" : "No");
 
 // Define the Agent
 const agent = new Agent({
