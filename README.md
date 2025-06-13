@@ -6,7 +6,7 @@ OPENAI_API_KEY=<Your API Key>
 
 # Installation
 
-npm install openai dotenv
+npm install openai dotenv @openai/agents zod
 
 # Usage
 
